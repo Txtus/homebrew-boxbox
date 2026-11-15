@@ -15,7 +15,7 @@ cask "boxbox" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Boxbox.app"
 
@@ -23,8 +23,8 @@ cask "boxbox" do
 
   zap trash: [
     "~/Library/Application Support/Boxbox",
-    "~/Library/Caches/de.titusnachtwey.Boxbox",
     "~/Library/Caches/Boxbox",
+    "~/Library/Caches/de.titusnachtwey.Boxbox",
     "~/Library/HTTPStorages/de.titusnachtwey.Boxbox",
     "~/Library/Preferences/de.titusnachtwey.Boxbox.plist",
   ]
