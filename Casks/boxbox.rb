@@ -1,6 +1,6 @@
 cask "boxbox" do
-  version "1.0.1"
-  sha256 "ad96db6f6e88005cd2071b218787df8ee4dde9e0253c3ca1e05b2ccd48484819"
+  version "1.1.0"
+  sha256 "eaacf6cb4fc9e6bd169cf9ed9b683d15f0368d44f6da978d731ae1d3bfc0d5e9"
 
   url "https://github.com/Txtus/boxbox-releases/releases/download/v#{version}/Boxbox-#{version}.dmg",
       verified: "github.com/Txtus/boxbox-releases/"
